@@ -37,6 +37,28 @@ export const deleteUser = async (id) => {
 
 //get single user
 export const getUser = async (id) => {
-  const data = await User.findByPk(id);
-  return data;
+  const users = await User.findAll();
+  // console.log(users);
+  // console.log(id);
+  id=parseInt(id); // Here parse int is necessory so dut to this
+  const existingUser = users.find(user => user.dataValues.id === id);
+  console.log(existingUser);
+  if(existingUser){
+    const data = await User.findByPk(id);
+    return data;
+  }
+  else{
+    throw new Error('User is not present');
+  }
 };
+
+export const loginuser=async(body)=>{
+  const users = await User.findAll();
+  const existingUser = users.find(user => user.dataValues.email === body.email && user.dataValues.password===body.password);
+  if(existingUser){
+    console.log('Login successful');
+  }
+  else{
+    throw new Error('User is not present');
+  }
+}

@@ -1981,3 +1981,199 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-05-09T10:52:23.471Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:44:16)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:28:09.749Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:47:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:28:45.739Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:47:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:29:36.258Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:47:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:29:46.961Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:48:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:30:21.401Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:48:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:30:23.942Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:48:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:30:41.040Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:48:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:31:16.048Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:19:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:32:23.066Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:19:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:35:42.107Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:49:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:36:13.243Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee5$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:50:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:37:56.568Z"}
+error: 
+    status - 500 
+    message - Error: User is not present
+    at _callee6$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:62:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T12:30:11.622Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:19:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T12:33:36.313Z"}

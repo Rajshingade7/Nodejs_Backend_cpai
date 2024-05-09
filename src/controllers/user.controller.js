@@ -96,3 +96,16 @@ export const deleteUser = async (req, res, next) => {
     next(error);
   }
 };
+export const loginuser=async(req,res,next)=>{
+  try{
+    const data=await UserService.loginuser(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:'User login successfully'
+    });
+  }catch(error){
+    next(error);
+  }
+}
+
