@@ -1,6 +1,9 @@
 import { Json } from 'sequelize/lib/utils';
 import sequelize, { DataTypes } from '../config/database';
+import dotenv from 'dotenv';
+dotenv.config();
 const User = require('../models/user')(sequelize, DataTypes);
+const jwt = require('jsonwebtoken');
 
 //get all users
 export const getAllUsers = async () => {
@@ -53,10 +56,15 @@ export const getUser = async (id) => {
 };
 
 export const loginuser=async(body)=>{
+  console.log(body);
   const users = await User.findAll();
   const existingUser = users.find(user => user.dataValues.email === body.email && user.dataValues.password===body.password);
   if(existingUser){
+    // console.log(existingUser.dataValues.id);
+    const token=jwt.sign({email:existingUser.email,role:existingUser.role},process.env.SECRET_KEY);
+    
     console.log('Login successful');
+    return token;
   }
   else{
     throw new Error('User is not present');
