@@ -13,3 +13,15 @@ export const createEmployee=async(req,res,next)=>{
         next(error);
      }
 }
+export const getallEmployee = async (req, res, next) => {
+  try {
+    const data = await employeeservice.getallEmployee();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'All users fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

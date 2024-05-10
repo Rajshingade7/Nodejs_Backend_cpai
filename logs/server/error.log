@@ -3367,3 +3367,486 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-05-10T10:06:48.446Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 15:55:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4309.703},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":33451,"external":3096345,"heapTotal":96571392,"heapUsed":75918216,"rss":135344128},"pid":11148,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:11:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T10:25:46.934Z","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 16:06:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4955.671},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":17067,"external":3079961,"heapTotal":92114944,"heapUsed":71342144,"rss":133337088},"pid":7556,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:11:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T10:36:32.916Z","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T10:37:51.665Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T10:38:58.189Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T10:52:50.245Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T10:53:10.015Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T10:53:39.538Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 16:25:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6108.046},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":17067,"external":3079961,"heapTotal":97882112,"heapUsed":67031448,"rss":136536064},"pid":8112,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:11:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T10:55:45.282Z","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 16:27:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6184.015},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":17067,"external":3079961,"heapTotal":92639232,"heapUsed":73129136,"rss":133390336},"pid":8100,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:11:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T10:57:01.248Z","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.get (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 16:29:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6306.109},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":17067,"external":3079961,"heapTotal":96833536,"heapUsed":71172288,"rss":135122944},"pid":15696,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:11:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T10:59:03.341Z","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.getalldata is not a function
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:18:40)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getallEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:16:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\helmet\dist\index.js:142:6) 
+    url - /api/v1/employee/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:00:45.506Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.getalldata is not a function
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:18:40)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getallEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:16:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\helmet\dist\index.js:142:6) 
+    url - /api/v1/employee/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:02:26.162Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.getalldata is not a function
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:18:40)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getallEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:16:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\helmet\dist\index.js:142:6) 
+    url - /api/v1/employee/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:02:41.271Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.getalldata is not a function
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:18:40)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getallEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:16:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\helmet\dist\index.js:142:6) 
+    url - /api/v1/employee/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:04:18.926Z"}

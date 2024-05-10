@@ -12,6 +12,13 @@ export const createEmployee = async (body) => {
     // if (existingUser) {
     //   throw new Error('User already exists');
     // }
+
     const data = await Employee.create(body);
     return data;
 };
+
+export const getallEmployee = async () => {
+    const data = await Employee.findAll();
+  
+    return data;
+  };

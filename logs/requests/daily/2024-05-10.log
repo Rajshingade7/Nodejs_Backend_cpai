@@ -62,3 +62,41 @@ info: ::1 - - [10/May/2024:10:06:48 +0000] "POST /api/v1/employee/ HTTP/1.1" 500
 
 info: ::1 - - [10/May/2024:10:07:06 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
 
+info: ::1 - - [10/May/2024:10:23:08 +0000] "GET /api/v1/employee/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:23:40 +0000] "GET /api/v1/employee/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:24:03 +0000] "GET /api/v1/employee/o HTTP/1.1" 404 47 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:25:26 +0000] "GET /api/v1/employee/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:37:13 +0000] "POST /api/v1/users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:37:51 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:37:59 +0000] "POST /api/v1/users/ HTTP/1.1" 201 246 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:38:58 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:39:04 +0000] "POST /api/v1/users/ HTTP/1.1" 201 299 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:52:50 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:53:10 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:53:39 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:54:04 +0000] "POST /api/v1/users/ HTTP/1.1" 201 300 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:10:59:49 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1116 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:00:45 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 79 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:02:26 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 79 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:02:41 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 79 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:04:18 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 79 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:04:36 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
