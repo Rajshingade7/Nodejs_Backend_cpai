@@ -1,0 +1,153 @@
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T06:32:06.317Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T06:32:06.719Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T06:35:53.086Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T06:35:53.453Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:19:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T06:36:42.549Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T06:37:55.440Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T06:37:55.829Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T06:41:00.831Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T06:41:01.209Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:18:23)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T06:41:05.944Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T06:42:06.915Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T06:42:07.294Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T10:55:23.958Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T10:55:24.436Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:19:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T10:55:35.371Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:19:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T10:56:20.135Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:19:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T10:57:00.388Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T11:18:37.897Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T11:18:38.099Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:18:23)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T11:19:51.200Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:18:23)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T11:20:33.554Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:18:23)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-13T11:20:40.338Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T11:20:57.211Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T11:20:57.412Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T11:21:44.445Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T11:21:44.630Z"}
+error: 
+      status - 403
+      message - Access forbidden. User does not have the required role. 
+      url - /api/v1/employee/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-13T11:21:48.587Z"}
+error: 
+      status - 403
+      message - Access forbidden. User does not have the required role. 
+      url - /api/v1/employee/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-13T11:21:57.880Z"}
+error: 
+      status - 403
+      message - Access forbidden. User does not have the required role. 
+      url - /api/v1/employee/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-13T11:22:08.848Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-13T11:22:28.532Z"}
+info: Connected to the database. {"timestamp":"2024-05-13T11:22:28.735Z"}

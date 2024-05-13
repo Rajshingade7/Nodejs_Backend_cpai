@@ -100,3 +100,83 @@ info: ::1 - - [10/May/2024:11:04:18 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 
 
 info: ::1 - - [10/May/2024:11:04:36 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
 
+info: ::1 - - [10/May/2024:11:12:04 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:14:09 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:16:20 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:18:41 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1116 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:18:59 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:14 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:27 +0000] "POST /api/v1/users/ HTTP/1.1" 201 299 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:20:00 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:22:51 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:14 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:37 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:52 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:24:01 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:25:07 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:25:54 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:28:30 +0000] "POST /api/v1/employee/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:33:16 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:35:41 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:36:41 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:42:10 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:43:33 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:44:27 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:46:44 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:47:31 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:47:52 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:50:46 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:54:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:56:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:56:48 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:59:11 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:00:56 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:01:03 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:02:25 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:11:04 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:15:17 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:18:58 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:19:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:19:40 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:20:46 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+

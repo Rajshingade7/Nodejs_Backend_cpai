@@ -2380,3 +2380,160 @@ info: ::1 - - [10/May/2024:11:04:18 +0000] "GET /api/v1/employee/ HTTP/1.1" 500 
 
 info: ::1 - - [10/May/2024:11:04:36 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
 
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as delete] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/employee.route.js:13:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 16:41:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7030.406},"process":{"argv":["node","C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\index.js"],"cwd":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":41615,"external":3104549,"heapTotal":99192832,"heapUsed":68107992,"rss":138432512},"pid":13012,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as delete] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js:13:14)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":15,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":216,"method":"<computed> [as delete]","native":false},{"column":19,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":14,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/employee.route.js","function":null,"line":13,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\rajsh\\Desktop\\BridgeLabs\\Node\\NodeProject\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: ::1 - - [10/May/2024:11:12:04 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:14:09 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:16:20 +0000] "DELETE /api/v1/employee/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:18:41 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1116 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:18:59 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:14 +0000] "POST /api/v1/users/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:27 +0000] "POST /api/v1/users/ HTTP/1.1" 201 299 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:19:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:20:00 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:22:51 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:14 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:37 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:23:52 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:24:01 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:25:07 +0000] "GET /api/v1/employee/ HTTP/1.1" 200 333 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:25:54 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:28:30 +0000] "POST /api/v1/employee/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:33:16 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:35:41 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:36:41 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:42:10 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:43:33 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:44:27 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:46:44 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:47:31 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:47:52 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:50:46 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:54:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:56:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:56:48 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:11:59:11 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:00:56 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:01:03 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:02:25 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:11:04 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:15:17 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:18:58 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:19:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:19:40 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [10/May/2024:12:20:46 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:33:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:35:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:36:42 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:38:00 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:41:05 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:42:10 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:06:44:02 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:10:55:35 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:10:56:20 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:10:57:00 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:19:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 215 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:19:51 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:20:33 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:20:40 +0000] "POST /api/v1/employee/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:21:00 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:21:27 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:21:48 +0000] "POST /api/v1/employee/ HTTP/1.1" 403 80 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:21:57 +0000] "POST /api/v1/employee/ HTTP/1.1" 403 80 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:22:08 +0000] "POST /api/v1/employee/ HTTP/1.1" 403 80 "-" "PostmanRuntime/7.38.0"
+
+info: ::1 - - [13/May/2024:11:31:41 +0000] "POST /api/v1/employee/ HTTP/1.1" 201 331 "-" "PostmanRuntime/7.38.0"
+

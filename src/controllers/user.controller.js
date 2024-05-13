@@ -78,12 +78,7 @@ export const updateUser = async (req, res, next) => {
   }
 };
 
-/**
- * Controller to delete a single user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+
 export const deleteUser = async (req, res, next) => {
   try {
     await UserService.updateUser(req.params.id);

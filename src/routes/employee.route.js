@@ -10,7 +10,7 @@ router.post('/',userAuth,newemployeevalidator,employeeController.createEmployee)
 
 router.get('/',employeeController.getallEmployee);
 
-router.delete('/:id', employeeController.deleteEmployee);
+// router.delete('/:id', employeeController.deleteEmployee);
 
 
 export default router;

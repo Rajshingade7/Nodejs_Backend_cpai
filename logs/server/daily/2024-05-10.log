@@ -624,3 +624,370 @@ error:
    {"timestamp":"2024-05-10T11:04:18.926Z"}
 info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:04:31.152Z"}
 info: Connected to the database. {"timestamp":"2024-05-10T11:04:31.339Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:11:07.852Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:11:51.902Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:11:52.093Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.deleteEmployee is not a function
+    at _callee3$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:31:27)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:29:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:12:04.427Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:13:50.494Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:13:50.669Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.deleteEmployee is not a function
+    at _callee3$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:31:27)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:29:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:14:09.513Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:16:12.116Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:16:12.311Z"}
+error: 
+    status - 500 
+    message - TypeError: employeeservice.deleteEmployee is not a function
+    at _callee3$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:31:27)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteEmployee (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\controllers\/employee.controller.js:29:28)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:16:20.078Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:18:12.361Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:18:12.572Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:18:59.625Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T11:19:14.988Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:22:49.065Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:22:49.270Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:25:21.778Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:25:21.978Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-10T11:28:30.376Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:42:02.656Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:42:02.848Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:43:26.268Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:43:26.472Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:44:22.066Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:44:22.250Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:47:44.368Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:47:44.540Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:50:34.565Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:50:34.805Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T11:59:03.982Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T11:59:04.204Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T12:00:54.881Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T12:00:55.082Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:18:32)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:9:22)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:00:56.365Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T12:02:19.148Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T12:02:19.347Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T12:10:50.583Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T12:10:50.991Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:22:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:11:04.034Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T12:14:57.948Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T12:14:58.326Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:22:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:15:17.391Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-05-10T12:18:55.197Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T12:18:55.552Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:22:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:18:58.265Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:22:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:19:40.025Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role')
+    at _callee$ (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\src\middlewares\/auth.middleware.js:22:14)
+    at tryCatch (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\rajsh\Desktop\BridgeLabs\Node\NodeProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T12:20:46.932Z"}
